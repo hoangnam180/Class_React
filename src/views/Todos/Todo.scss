@@ -1,0 +1,52 @@
+.todo_container{
+    margin-top:100px;
+    h1{
+        text-align: center;
+        color: #867452;
+    }
+    input{
+        padding: 10px;
+        border: 1px solid #867452;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        width: 70%
+    }
+    .todo_button{
+        padding: 10px;
+        border: 1px solid #867452;
+        border-radius: 5px;
+        margin-left: 10px;
+
+    }
+    ul.todo_list{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li{
+            display :flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+            border: 1px solid #867452;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            &.completed{
+                text-decoration: line-through;
+            }
+            span{
+                cursor: pointer;
+                color: #867452;
+                font-size: 1.4em;
+            }
+        }
+    }
+}
+.todo_button{
+
+}
+.todo_list{
+
+}
+.todo_item{
+
+}
